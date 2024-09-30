@@ -2291,24 +2291,24 @@
   /////////////////////////////////////////////////////
 
 
-  // Switcher JS
-  $('#switcher_open').on('click', function () {
-    $(this).hide();
-    $('#switcher_close').show();
-    $('.switcher__icon').css('right', '280px');
-    $('.switcher__items').css({
-      'right': '0',
-    });
-  });
+  // // Switcher JS
+  // $('#switcher_open').on('click', function () {
+  //   $(this).hide();
+  //   $('#switcher_close').show();
+  //   $('.switcher__icon').css('right', '280px');
+  //   $('.switcher__items').css({
+  //     'right': '0',
+  //   });
+  // });
 
-  $('#switcher_close').on('click', function () {
-    $(this).hide();
-    $('#switcher_open').show();
-    $('.switcher__icon').css('right', '0');
-    $('.switcher__items').css({
-      'right': '-280px',
-    });
-  });
+  // $('#switcher_close').on('click', function () {
+  //   $(this).hide();
+  //   $('#switcher_open').show();
+  //   $('.switcher__icon').css('right', '0');
+  //   $('.switcher__items').css({
+  //     'right': '-280px',
+  //   });
+  // });
 
   // Mode JS
   $('.mode-type button').on('click', function (e) {
