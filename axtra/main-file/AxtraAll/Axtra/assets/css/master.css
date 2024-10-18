@@ -6700,7 +6700,7 @@ img {
     font-size: 48px;
   }
 }
-.hero__title::after {
+/* .hero__title::after {
   position: absolute;
   content: "Pro";
   width: 70px;
@@ -6765,7 +6765,7 @@ img {
   .hero__title-wrapper {
     margin-bottom: 0;
   }
-}
+} */
 .hero__sub-title {
   font-weight: 400;
   font-size: 18px;
@@ -6778,7 +6778,7 @@ img {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .hero__sub-title {
-    bottom: -10px;
+    bottom: -100px;
     right: -30px;
   }
 }
@@ -23129,7 +23129,7 @@ main {
 }
 @media only screen and (max-width: 767px) {
   .hero__arrow-icon {
-    top: 83%;
+    top: 93%;
     right: 10%;
     -webkit-transform: rotate(62deg);
             transform: rotate(62deg);
@@ -23146,7 +23146,7 @@ main {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .hero__content-6 {
-    padding-top: 210px;
+    padding-top: 310px;
   }
 }
 @media only screen and (max-width: 767px) {
